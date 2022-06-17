@@ -1,0 +1,410 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@500&display=swap");
+@import url("http://fonts.cdnfonts.com/css/hackney");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+html {
+  overflow-x: hidden;
+}
+.notice {
+  background-color: #2a191a;
+  height: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  -webkit-text-stroke: 2px #000000;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 10px;
+}
+nav li {
+  padding: 15px;
+}
+.left {
+  display: flex;
+}
+.right {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.firstPage {
+  height: 100vh;
+}
+
+.notice a {
+  text-decoration: none;
+  color: white;
+}
+.greenButton {
+  padding: 15px;
+  background: #71b63b;
+  height: 50px;
+}
+.logo {
+  margin-top: -20px;
+}
+.title {
+  font-size: 10rem;
+  font-family: "Hackney", sans-serif;
+}
+.secondPage {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url("https://images.consciousplanet.org/_next/static/media/why-save-soil-background.a939583c.jpg?auto=format&fit=max&w=1920");
+}
+
+.oneHalf {
+  width: 30rem;
+}
+.subtitle {
+  line-height: 1.5;
+  font-size: 30px;
+  font-weight: 400;
+}
+.break {
+  height: 1px;
+  background: black;
+}
+.newBreak1 {
+  height: 2px;
+}
+.newBreak {
+  margin: 20px auto;
+}
+.descriptionTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+.description {
+  margin-top: 10px;
+}
+.descriptionTitle2 {
+  font-size: 20px;
+}
+.aboutSadh {
+  text-decoration: underline;
+  text-align: end;
+}
+.saveSoilDesc {
+  text-align: end;
+  margin-left: 10rem;
+}
+video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+.earth {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 200px;
+  width: auto;
+}
+.mainTitle {
+  font-size: 10rem;
+  font-family: "Hackney", sans-serif;
+  margin-left: 50px;
+  margin-top: -20px;
+  width: 620px;
+}
+.sadhguruImg {
+  height: auto;
+  width: 30rem;
+}
+.nxtHalf {
+  position: relative;
+}
+.play {
+  position: absolute;
+  transform: translate(13rem, -11rem);
+  font-size: 3rem;
+  color: grey;
+}
+.slidingBar {
+  position: relative;
+  --offset: 20vw;
+  --move-initial: calc(-25% + var(--offset));
+  --move-final: calc(-50% + var(--offset));
+  padding: 10px 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: nowrap;
+  box-shadow: -1px 11px 27px -6px rgba(0, 0, 0, 0.58);
+  -webkit-box-shadow: -1px 11px 27px -6px rgba(0, 0, 0, 0.58);
+  -moz-box-shadow: -1px 11px 27px -6px rgba(0, 0, 0, 0.58);
+}
+.crisis {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 4rem;
+}
+.subtitle2 {
+  text-align: center;
+}
+.break2 {
+  margin: 20px 300px;
+}
+.listItem img {
+  height: 100px;
+  width: auto;
+}
+.listItem {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.listTitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.listItem i {
+  font-size: 2rem;
+}
+.learnAbtSoil {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.learnAbtSoil button {
+  height: 50px;
+  border: 0px;
+  color: white;
+  font-size: 1.4rem;
+  width: 300px;
+  background: #71b63b;
+}
+.thirdPage {
+  margin-top: 100px;
+  background: #e4e9f0;
+}
+.title3 {
+  margin-left: 30px;
+  margin-top: 100px;
+  font-size: 6rem;
+  display: inline-block;
+}
+.leafImg {
+  height: 150px;
+}
+.sub2 {
+  width: 600px;
+  margin-left: 30px;
+  font-weight: bold;
+}
+.des2 {
+  margin-left: 30px;
+  width: 500px;
+  line-height: 1.5;
+}
+.tree {
+  width: 100vw;
+}
+.title4 {
+  font-size: 6rem;
+}
+.title4,
+.sub3 {
+  color: white;
+  text-align: center;
+}
+.new {
+  transform: translateY(-230px);
+}
+.fourthPage {
+  background: #e6e2df;
+  padding-bottom: 20px;
+}
+.title5 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 20px;
+  color: #4a7020;
+}
+.img {
+  height: 200px;
+  width: auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+.flexItem {
+  text-align: center;
+}
+.sub4 {
+  margin: 10px;
+  font-weight: bold;
+  color: #4a7020;
+}
+.descGo {
+  font-size: 20px;
+  margin: auto 20px;
+  font-weight: bold;
+}
+.break3 {
+  margin-bottom: 20px;
+}
+.descPolicy {
+  margin: 15px auto;
+  line-height: 1.7;
+  text-align: center;
+}
+.downArrow {
+  font-size: 30px;
+  text-align: center;
+}
+.desss {
+  text-align: center;
+  margin: auto 30%;
+}
+.colGreen {
+  color: #4a7020;
+}
+.soilImg {
+  margin-top: -180px;
+}
+.soilArea {
+  transform: translateY(0px);
+}
+.descMake {
+  margin: auto 200px;
+  text-align: center;
+}
+.blueFlex {
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  flex-direction: column;
+  background: #071269;
+  display: flex;
+  height: 400px;
+}
+.newWidth {
+  margin-top: 20px;
+  width: 200px;
+}
+.fur {
+  height: 100px;
+  width: auto;
+  transform: translate(270px, 100px);
+}
+.hear {
+  margin-top: 50px;
+}
+.newFlex {
+  display: flex;
+  gap: 10px;
+  margin: 20px 20px;
+  align-items: center;
+  justify-content: space-around;
+}
+.prNxt {
+  font-size: 50px;
+  color: #4a7020;
+}
+.flexVideo {
+  text-align: center;
+}
+.videoTitle {
+  font-size: 20px;
+  margin: 5px;
+  font-weight: bold;
+}
+.break4 {
+  margin: auto 100px;
+}
+.imgFlexbox {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto 200px;
+  margin-top: 30px;
+}
+.imgFlexItem {
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 10px;
+  height: 100px;
+}
+.imgFlexItem img {
+  border-radius: 10px;
+  height: 100%;
+  width: auto;
+}
+.colWhite {
+  color: white;
+}
+.bold {
+  font-weight: bold;
+}
+.social {
+  width: 100px;
+}
+.makeItHappen {
+  margin-top: 30px;
+  height: 400px;
+  background: url("soilinhand.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.makeItHappen * {
+  color: white;
+}
+.footerpicture {
+  margin: 50px;
+  margin-left: 100px;
+}
+footer {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  margin: auto 100px;
+  line-height: 2;
+  margin-bottom: 100px;
+}
+.flexInside {
+  display: flex;
+  gap: 20px;
+}
+.flexInside i {
+  font-size: 30px;
+}
+.flex1 {
+  display: flex;
+  gap: 30px;
+}
+.under {
+  text-decoration: underline;
+}
+.flexitem1 {
+  text-decoration: underline;
+}
+.support {
+  text-align: center;
+  margin-top: 10px;
+}
