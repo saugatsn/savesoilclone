@@ -1,6 +1,7 @@
 /* Google Fonts - Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
+@import url("http://fonts.cdnfonts.com/css/hackney");
+@import url("https://onlinewebfonts.com/c/28b7d204b2162c5db7e0cca0310bd616?family=Hackney");
 *{
   margin: 0;
   padding: 0;
